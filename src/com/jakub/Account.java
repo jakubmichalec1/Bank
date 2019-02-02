@@ -1,5 +1,13 @@
 package com.jakub;
 
-public abstract class Account {
+public class Account {
+int amount;
+
+void addBonus() {
+    amount +=100;
+
+
+}
+
 
 }
